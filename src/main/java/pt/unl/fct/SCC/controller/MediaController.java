@@ -27,7 +27,7 @@ public class MediaController {
         }catch (Exception e){
             return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
-        return new ResponseEntity<>(key, HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(key, HttpStatus.CREATED);
     }
 
     @GetMapping(value = "/{id}",produces = MediaType.APPLICATION_OCTET_STREAM_VALUE)
