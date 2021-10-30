@@ -1,4 +1,4 @@
-package pt.unl.fct.SCC;
+package pt.unl.fct.scc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
